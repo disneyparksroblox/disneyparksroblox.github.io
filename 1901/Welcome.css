@@ -1,0 +1,86 @@
+ .u-section-1 {
+  background-image: url("images/RobloxScreenShot20230409_153049103.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 779px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 277px auto 0;
+}
+
+.u-section-1 .u-list-1 {
+  width: 524px;
+  margin: 10px auto 60px;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-gap: 10px 10px;
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  min-height: 102px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 10px 2px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: 700;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  font-size: 1.125rem;
+  margin: 19px auto 0;
+  padding: 10px 42px 11px 40px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 10px 2px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: 700;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  font-size: 1.125rem;
+  margin: 19px auto 0;
+  padding: 10px 42px 11px 40px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 642px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 492px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: 100%;
+    min-height: 322px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 369px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 232px;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 340px;
+  }
+}

@@ -48,13 +48,14 @@
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px);
+  grid-template-columns: calc(50% - 20px) calc(50% - 20px);
   grid-gap: 40px 40px;
   min-height: 417px;
+  grid-auto-columns: calc(50% - 20px);
 }
 
 .u-section-2 .u-image-1 {
-  background-image: url("images/RobloxScreenShot20230407_162639822.png");
+  background-image: url("images/RobloxScreenShot20230410_184637031.png");
   background-position: 50% 50%;
 }
 
@@ -94,6 +95,47 @@
   --animation-custom_in-scale: 1;
 }
 
+.u-section-2 .u-image-2 {
+  background-image: url("images/RobloxScreenShot20230407_162639822.png");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-2 .u-text-3 {
+  font-family: Alata;
+  margin: 220px 0 0;
+}
+
+.u-section-2 .u-metadata-2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.u-section-2 .u-text-4 {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.u-section-2 .u-btn-2 {
+  margin-left: 0;
+  margin-right: 0;
+  letter-spacing: 1px;
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #f5d654, #f9e79b);
+  box-shadow: 0px 0px 8px 0px rgba(128,128,128,1);
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+}
+
 .u-section-2 .u-gallery-nav-1 {
   position: absolute;
   left: 10px;
@@ -118,11 +160,23 @@
     margin-left: initial;
   }
 
+  .u-section-2 .u-repeater-1 {
+    grid-template-columns: calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px);
+  }
+
   .u-section-2 .u-metadata-1 {
     margin-left: 0;
   }
 
   .u-section-2 .u-text-2 {
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-metadata-2 {
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-text-4 {
     margin-left: 0;
   }
 }
@@ -134,5 +188,12 @@
 
   .u-section-2 .u-repeater-1 {
     grid-template-columns: 100%;
+    grid-auto-columns: calc(100% - 0px);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-repeater-1 {
+    grid-auto-columns: 100%;
   }
 }

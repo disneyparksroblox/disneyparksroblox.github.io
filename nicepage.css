@@ -24177,7 +24177,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: Alata;
 }
 h1,
 h2,
@@ -24206,7 +24206,7 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: 'Open Sans',sans-serif !important;
+  font-family: Alata !important;
 }
 .u-custom-font.u-heading-font {
   font-family: Alata !important;
@@ -40957,7 +40957,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 112px;
 }
 
 .u-header .u-image-1 {
@@ -40972,7 +40972,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -32px 0 22px auto;
+  margin: -48px auto 38px 90px;
 }
 
 .u-header .u-nav-1 {
@@ -40997,19 +40997,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 108px;
+  min-height: 85px;
 }
 
 .u-footer .u-text-1 {
   font-family: Alata;
-  margin: 38px 83px 0;
+  margin: 15px 83px 0;
 }
 
 .u-footer .u-text-2 {
   font-family: Alata;
-  margin-left: 83px;
-  margin-right: 83px;
-  margin-bottom: 0;
+  margin: 7px 83px 15px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-text-1 {
@@ -41039,6 +41037,22 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
+ /*begin-variables custom-site-css*/::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #c7c7c7; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
